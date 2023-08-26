@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Click button</title>
+    <link rel="stylesheet" href="task.css" />
+  </head>
+
+
+  <body>
+
+    <div class="container">
+      <button type="button" id="btn">Click Me</button>
+      <p id="text"></p>
+    </div>
+
+    <script>
+        const btn = document.getElementById("btn");
+        let para = document.getElementById("text");
+
+       btn.addEventListener("click", function () {
+       para.innerHTML = "welcome to the world of Javascript!";});
+
+    </script>
+
+  </body>
+</html>
